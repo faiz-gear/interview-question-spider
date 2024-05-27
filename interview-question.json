@@ -1,0 +1,3289 @@
+[
+  {
+    "question": {
+      "title": "[Webpack] 配置代码太多，达到数千行，这个时候该如何优化配置代码【热度: 186】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/777"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 你用过哪些可以提高效率的插件？【热度: 179】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/776"
+  },
+  {
+    "question": {
+      "title": "[React] 如何针对 react hooks 写单测【热度: 170】",
+      "labels": [
+        "TOP100互联网",
+        "web框架"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/775"
+  },
+  {
+    "question": {
+      "title": "[React] useEffect 依赖为空数组与 componentDidMount 区别【热度: 366】",
+      "labels": [
+        "TOP100互联网",
+        "web框架"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/774"
+  },
+  {
+    "question": {
+      "title": "技术选型上有一些什么标准【热度: 622】",
+      "labels": [
+        "PDD",
+        "web应用场景"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/773"
+  },
+  {
+    "question": {
+      "title": "在做 eslint 和 commitlint 的时候， 可以使用 --no-verify 跳过， 这种情况下该如何强制卡点【热度: 233】",
+      "labels": [
+        "工程化",
+        "美团"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/772"
+  },
+  {
+    "question": {
+      "title": "如何做  commit lint【热度: 425】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/771"
+  },
+  {
+    "question": {
+      "title": "编写 npm 包的时候，可以办法自动生成 changlog 与自动更新 tag【热度: 455】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/770"
+  },
+  {
+    "question": {
+      "title": "[Webpack] ts 编写的库， 在使用 webpack 构建的时候， 如何对外提供 d.ts【热度: 224】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/769"
+  },
+  {
+    "question": {
+      "title": "测试前端代码覆盖率一般有什么手段？【热度: 550】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/768"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 如何提取复用代码给多个 entry 使用？【热度: 292】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/767"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 如何将一些通用的依赖打包成一个独立的 bundle【热度: 643】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/766"
+  },
+  {
+    "question": {
+      "title": "[Webpack] output 配置里面， chunkFilename 和 filename 区别是什么？【热度: 210】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/765"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 多入口打包共享模块【热度: 337】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/764"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 如何使用 ts 来编写配置文件？【热度: 251】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/763"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 内部执行原理【热度: 668】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/762"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 为何不支持 CMD 模块化【热度: 255】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/761"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 支持哪些模块化加载？【热度: 154】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/760"
+  },
+  {
+    "question": {
+      "title": "前端如何做 页面主题色切换【热度: 538】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/759"
+  },
+  {
+    "question": {
+      "title": "前端视角 - 如何保证系统稳定性【热度: 566】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/758"
+  },
+  {
+    "question": {
+      "title": "如何统计长任务时间、长任务执行次数【热度: 489】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/757"
+  },
+  {
+    "question": {
+      "title": "CSS 属性计算函数 Calc 介绍一下【热度: 228】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/756"
+  },
+  {
+    "question": {
+      "title": "less 函数如何使用？【热度: 229】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/755"
+  },
+  {
+    "question": {
+      "title": "介绍一下 CSS 变量怎么声明和使用？【热度: 688】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/754"
+  },
+  {
+    "question": {
+      "title": "[React] React 19 有哪些新特性？【热度: 879】",
+      "labels": [
+        "TOP100互联网",
+        "web框架"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/753"
+  },
+  {
+    "question": {
+      "title": "webpack 的主要配置项有哪些【热度: 766】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/752"
+  },
+  {
+    "question": {
+      "title": "CSS 在2023 迎来重大更新， 更新内容是什么【热度: 548】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/751"
+  },
+  {
+    "question": {
+      "title": "[webpack] optimize 配置中， 分割代码配置 splitChunks 怎么使用【热度: 546】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/750"
+  },
+  {
+    "question": {
+      "title": "[webpack] optimize 配置有哪些作用【热度: 280】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/749"
+  },
+  {
+    "question": {
+      "title": "[React] useEffect 钩子的工作原理是什么【热度: 459】",
+      "labels": [
+        "web框架",
+        "滴滴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/748"
+  },
+  {
+    "question": {
+      "title": "[React] 介绍一下 useReducer【热度: 547】",
+      "labels": [
+        "web框架",
+        "滴滴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/747"
+  },
+  {
+    "question": {
+      "title": "[React] 是如何处理组件更新和渲染的？【热度: 862】",
+      "labels": [
+        "web框架",
+        "快手"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/746"
+  },
+  {
+    "question": {
+      "title": "[webpack] mode 是做什么用？【热度: 475】",
+      "labels": [
+        "Shopee",
+        "工程化"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/745"
+  },
+  {
+    "question": {
+      "title": "V8 里面的 JIT 是什么？【热度: 694】",
+      "labels": [
+        "Shopee",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/744"
+  },
+  {
+    "question": {
+      "title": "用 JS 写一个 cookies 解析函数， 输出结果为一个对象【热度: 137】",
+      "labels": [
+        "web应用场景",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/743"
+  },
+  {
+    "question": {
+      "title": "单元测试中， TDD、BDD、DDD 分别指？【热度: 166】",
+      "labels": [
+        "京东",
+        "工程化"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/742"
+  },
+  {
+    "question": {
+      "title": "[React] forwardsRef 作用是啥， 有哪些使用场景？【热度: 336】",
+      "labels": [
+        "PDD",
+        "web框架"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/741"
+  },
+  {
+    "question": {
+      "title": "vue 中 Scoped Styles 是如何实现样式隔离的， 原理是啥？【热度: 244】",
+      "labels": [
+        "CSS",
+        "美团"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/740"
+  },
+  {
+    "question": {
+      "title": "样式隔离方式有哪些【热度: 683】",
+      "labels": [
+        "CSS",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/739"
+  },
+  {
+    "question": {
+      "title": "jsBridge 是什么？原理是啥？【热度: 220】",
+      "labels": [
+        "JavaScript",
+        "小米"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/738"
+  },
+  {
+    "question": {
+      "title": "在 JS 中， 如何解决递归导致栈溢出问题？【热度: 269】",
+      "labels": [
+        "JavaScript",
+        "小米"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/737"
+  },
+  {
+    "question": {
+      "title": "git pull 和 git fetch 有啥区别？【热度: 355】",
+      "labels": [
+        "web应用场景",
+        "百度"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/735"
+  },
+  {
+    "question": {
+      "title": "站点如何防止爬虫？【热度: 554】",
+      "labels": [
+        "web应用场景",
+        "百度"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/734"
+  },
+  {
+    "question": {
+      "title": "什么是DNS劫持？【热度: 165】",
+      "labels": [
+        "百度",
+        "网络"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/733"
+  },
+  {
+    "question": {
+      "title": "[React] react 和 react-dom 是什么关系？【热度: 197】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/732"
+  },
+  {
+    "question": {
+      "title": "[React] Portals 作用是什么， 有哪些使用场景？【热度: 216】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/731"
+  },
+  {
+    "question": {
+      "title": "mouseEnter、mouseLeave、mouseOver、mouseOut 有什么区别？【热度: 266】",
+      "labels": [
+        "JavaScript",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/730"
+  },
+  {
+    "question": {
+      "title": "tsconfig 配置中 types 和 typeRoots 作用是什么， 有什么区别？【热度: 378】",
+      "labels": [
+        "TypeScript",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/729"
+  },
+  {
+    "question": {
+      "title": "ts 项目中，如何使用 node_modules 里面定义的全局类型包到自己项目 src 下面使用？【热度: 377】",
+      "labels": [
+        "TypeScript",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/728"
+  },
+  {
+    "question": {
+      "title": "介绍一下 MutationObserver【热度: 632】",
+      "labels": [
+        "浏览器",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/727"
+  },
+  {
+    "question": {
+      "title": "[React] 介绍一下 HOC【热度: 789】",
+      "labels": [
+        "web框架",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/726"
+  },
+  {
+    "question": {
+      "title": "husky 作用是啥， 有哪些重要配置【热度: 192】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/725"
+  },
+  {
+    "question": {
+      "title": "扁平数据通过 parent 关联, 实现扁平结构转嵌套 tree 结构【热度: 218】",
+      "labels": [
+        "代码实现/算法",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/724"
+  },
+  {
+    "question": {
+      "title": "树结构查找， 实现一个函数， 通过 id 来查找 tree 数据结构对应的节点【热度: 867】",
+      "labels": [
+        "代码实现/算法",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/723"
+  },
+  {
+    "question": {
+      "title": "documentFragment api 是什么， 有哪些使用场景？【热度: 115】",
+      "labels": [
+        "web应用场景",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/722"
+  },
+  {
+    "question": {
+      "title": "前端渲染和后端渲染各有啥优缺点， 为何现在技术大方向又逐渐往【后端渲染】方向靠了呢？【热度: 470】",
+      "labels": [
+        "Nodejs",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/721"
+  },
+  {
+    "question": {
+      "title": "express 里面的 中间件 和 插件， 是一个意思吗？【热度: 469】",
+      "labels": [
+        "Nodejs",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/720"
+  },
+  {
+    "question": {
+      "title": "[Vue] Vue2 中双向绑定是通过 Object.defineProperty() 实现的， 那么它是如何监控数组的？【热度: 447】",
+      "labels": [
+        "web框架",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/719"
+  },
+  {
+    "question": {
+      "title": "介绍一下 requestIdleCallback api【热度: 290】",
+      "labels": [
+        "web应用场景",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/718"
+  },
+  {
+    "question": {
+      "title": "[React] 为何要自己实现调度器， 而不是直接使用 requestIdleCallback ？【热度: 236】",
+      "labels": [
+        "web框架",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/717"
+  },
+  {
+    "question": {
+      "title": "对象深拷贝的原理和代码实现【热度: 892】",
+      "labels": [
+        "JavaScript",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/716"
+  },
+  {
+    "question": {
+      "title": "普通数据类型存储在哪里？堆还是栈",
+      "labels": [
+        "JavaScript",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/715"
+  },
+  {
+    "question": {
+      "title": "不同标签页或窗口间的 【主动推送消息机制】 的方式有哪些？（不借助服务端）【热度: 401】",
+      "labels": [
+        "Shopee",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/714"
+  },
+  {
+    "question": {
+      "title": "[css] 如何设置渐变色？【热度: 746】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/713"
+  },
+  {
+    "question": {
+      "title": "html的行内元素和块级元素的区别【热度: 796】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/712"
+  },
+  {
+    "question": {
+      "title": "[React] react-router 和 原生路由区别【热度: 434】",
+      "labels": [
+        "TOP100互联网",
+        "web框架",
+        "web应用场景"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/711"
+  },
+  {
+    "question": {
+      "title": "[React] 在 react 项目开发过程中， 是否可以不用 react-router， 使用浏览器原生 history 路由来组织页面路由？【热度: 632】",
+      "labels": [
+        "TOP100互联网",
+        "web框架",
+        "web应用场景"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/710"
+  },
+  {
+    "question": {
+      "title": "Husky 和 lint-staged 有什么区别？【热度: 387】",
+      "labels": [
+        "工程化",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/709"
+  },
+  {
+    "question": {
+      "title": "介绍一下 scrollIntoView api【热度: 286】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/708"
+  },
+  {
+    "question": {
+      "title": "在表单校验场景中， 如何实现页面视口滚动到报错的位置【热度: 248】",
+      "labels": [
+        "web应用场景",
+        "小红书"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/707"
+  },
+  {
+    "question": {
+      "title": "交叉观察器 API IntersectionObserver 详解【热度: 665】",
+      "labels": [
+        "web应用场景",
+        "小红书"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/706"
+  },
+  {
+    "question": {
+      "title": "虚拟混动加载原理是什么， 用 JS 代码简单实现一个虚拟滚动加加载。【热度: 354】",
+      "labels": [
+        "web应用场景",
+        "小红书"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/705"
+  },
+  {
+    "question": {
+      "title": "如何一次性渲染十万条数据还能保证页面不卡顿【热度: 426】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/704"
+  },
+  {
+    "question": {
+      "title": "[webpack] 打包时 hash 码是如何生成的【热度: 167】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/703"
+  },
+  {
+    "question": {
+      "title": "如何从 0 到 1 搭建前端基建【热度: 404】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/702"
+  },
+  {
+    "question": {
+      "title": "[React] 为什么 react 组件， 都必须要申明一个 import React from 'react';【热度: 115】",
+      "labels": [
+        "web框架",
+        "小红书",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/701"
+  },
+  {
+    "question": {
+      "title": "babel 核心库有哪些？【热度: 35】",
+      "labels": [
+        "小红书",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/700"
+  },
+  {
+    "question": {
+      "title": "你在开发过程中， 使用过哪些 TS 的特性或者能力？【热度: 670】",
+      "labels": [
+        "TypeScript",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/699"
+  },
+  {
+    "question": {
+      "title": "开发过程中为什么会选择使用 ts , 相比于 JS 开发， 有哪些优点？【热度: 318】",
+      "labels": [
+        "TypeScript",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/698"
+  },
+  {
+    "question": {
+      "title": "JS 的加载会阻塞浏览器渲染吗？【热度: 243】",
+      "labels": [
+        "TOP100互联网",
+        "浏览器"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/697"
+  },
+  {
+    "question": {
+      "title": "浏览器对队头阻塞有什么优化？【热度: 368】",
+      "labels": [
+        "浏览器",
+        "滴滴",
+        "网络"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/696"
+  },
+  {
+    "question": {
+      "title": "Proxy 和 Reflect 有什么关系？【热度: 361】",
+      "labels": [
+        "JavaScript",
+        "滴滴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/695"
+  },
+  {
+    "question": {
+      "title": "TS 中 any 和 unknow 的区别【热度: 412】",
+      "labels": [
+        "TOP100互联网",
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/694"
+  },
+  {
+    "question": {
+      "title": "介绍一下 TS 中的泛型【热度: 118】",
+      "labels": [
+        "TOP100互联网",
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/693"
+  },
+  {
+    "question": {
+      "title": "在Babel里，stage0、stage1、stage2 和 stage3 分别代表什么含义？",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/692"
+  },
+  {
+    "question": {
+      "title": "Webpack 项目中通过 script 标签引入资源，在项目中如何处理?【热度: 100】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/691"
+  },
+  {
+    "question": {
+      "title": "ES6 中的 Map 对象该如何遍历【热度: 411】",
+      "labels": [
+        "JavaScript",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/690"
+  },
+  {
+    "question": {
+      "title": "ES6 中的 Set 对象该如何遍历【热度: 410】",
+      "labels": [
+        "JavaScript",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/689"
+  },
+  {
+    "question": {
+      "title": "JS 严格模式为什么会禁用 with 语句？【热度: 210】",
+      "labels": [
+        "JavaScript",
+        "TOP100互联网"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/688"
+  },
+  {
+    "question": {
+      "title": "JS 严格模式作用是啥？【热度: 530】",
+      "labels": [
+        "JavaScript",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/687"
+  },
+  {
+    "question": {
+      "title": "应用上线后， 怎么通知用户刷新当前页面？【热度: 466】",
+      "labels": [
+        "web应用场景",
+        "美团"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/686"
+  },
+  {
+    "question": {
+      "title": "Eslint 代码检查的过程是啥？【热度: 111】",
+      "labels": [
+        "web应用场景",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/684"
+  },
+  {
+    "question": {
+      "title": "void 和 never 区别【热度: 410】",
+      "labels": [
+        "TypeScript",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/683"
+  },
+  {
+    "question": {
+      "title": "CSS 属性值计算 - calc【热度: 320】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/682"
+  },
+  {
+    "question": {
+      "title": "CSS 中的 display 属性有哪些值？【热度: 593】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/681"
+  },
+  {
+    "question": {
+      "title": "HTTP是一个无状态的协议，那么Web应用要怎么保持用户的登录态呢？【热度: 1,092】",
+      "labels": [
+        "TOP100互联网",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/680"
+  },
+  {
+    "question": {
+      "title": "如何检测网页空闲状态(一定时间内无操作)【热度: 329】",
+      "labels": [
+        "web应用场景",
+        "百度"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/679"
+  },
+  {
+    "question": {
+      "title": "为什么 Vite 速度比 Webpack 快？【热度: 382】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/678"
+  },
+  {
+    "question": {
+      "title": "JS 放在 head 里和放在 body 里有什么区别？【热度: 420】",
+      "labels": [
+        "web应用场景",
+        "阿里巴巴"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/677"
+  },
+  {
+    "question": {
+      "title": "列表分页， 快速翻页下的竞态问题【热度: 444】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/676"
+  },
+  {
+    "question": {
+      "title": "CORS 请求中，是如何触发预检请求【热度: 229】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/675"
+  },
+  {
+    "question": {
+      "title": "http 中 HSTS 是什么【热度: 374】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/674"
+  },
+  {
+    "question": {
+      "title": "http 中 CSP 是什么【热度: 323】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/673"
+  },
+  {
+    "question": {
+      "title": "JS 执行 100 万个任务， 如何保证浏览器不卡顿？【热度: 806】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/672"
+  },
+  {
+    "question": {
+      "title": "grpc 和 protobuf 是什么关系？【热度: 320】",
+      "labels": [
+        "TOP100互联网",
+        "网络"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/671"
+  },
+  {
+    "question": {
+      "title": "常见网络协议有哪些【热度: 724】",
+      "labels": [
+        "TOP100互联网",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/669"
+  },
+  {
+    "question": {
+      "title": "权限管理模型相关概念【热度: 670】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/668"
+  },
+  {
+    "question": {
+      "title": "Protobuf 相关知识【热度: 216】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/667"
+  },
+  {
+    "question": {
+      "title": "git 仓库迁移应该怎么操作【热度: 160】",
+      "labels": [
+        "web应用场景",
+        "小米"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/666"
+  },
+  {
+    "question": {
+      "title": "TypeScript 内置的类型方法和工具类型【热度: 492】",
+      "labels": [
+        "TOP100互联网",
+        "TypeScript"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/665"
+  },
+  {
+    "question": {
+      "title": "递归和尾递归是什么概念?【热度: 649】",
+      "labels": [
+        "JavaScript",
+        "TOP100互联网"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/664"
+  },
+  {
+    "question": {
+      "title": "如何禁止别人调试自己的前端页面代码?【热度: 347】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/663"
+  },
+  {
+    "question": {
+      "title": "web 系统里面， 如何对图片进行优化？【热度: 789】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/661"
+  },
+  {
+    "question": {
+      "title": "请求 Header 的 Content-Type 常见的有哪几种?【热度: 617】",
+      "labels": [
+        "TOP100互联网",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/660"
+  },
+  {
+    "question": {
+      "title": "OAuth2.0 是什么登录方式【热度: 210】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/659"
+  },
+  {
+    "question": {
+      "title": "单点登录是如何实现的？【热度: 647】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/658"
+  },
+  {
+    "question": {
+      "title": "常见的登录鉴权方式有哪些？【热度: 557】",
+      "labels": [
+        "TOP100互联网",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/656"
+  },
+  {
+    "question": {
+      "title": "[webpack] webpack-dev-server 为何不适用于线上环境？【热度: 88】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/655"
+  },
+  {
+    "question": {
+      "title": "[webpack] webpack-dev-server 作用是啥？【热度: 387】",
+      "labels": [
+        "PDD",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/654"
+  },
+  {
+    "question": {
+      "title": "需要在跨域请求中携带另外一个域名下的 Cookie 该如何操作？【热度: 254】",
+      "labels": [
+        "Shopee",
+        "网络"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/653"
+  },
+  {
+    "question": {
+      "title": "vite 和  webpack 在热更新上有啥区别？【热度: 530】",
+      "labels": [
+        "工程化",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/652"
+  },
+  {
+    "question": {
+      "title": "esbuild 和 rollup 都是 vite 的基础依赖， 那么他们有啥不同？【热度: 129】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/651"
+  },
+  {
+    "question": {
+      "title": "vite 编译器有啥特点？【热度: 237】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/650"
+  },
+  {
+    "question": {
+      "title": "vite 编译器的组成部分【热度: 335】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/649"
+  },
+  {
+    "question": {
+      "title": "vite 涉及到了哪些底层原理？【热度: 510】",
+      "labels": [
+        "TOP100互联网",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/648"
+  },
+  {
+    "question": {
+      "title": "css加载会造成阻塞吗【热度: 373】",
+      "labels": [
+        "CSS",
+        "TOP100互联网"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/646"
+  },
+  {
+    "question": {
+      "title": "封装一个请求超时， 发起重试的代码【热度: 789】",
+      "labels": [
+        "Shopee",
+        "代码实现/算法"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/644"
+  },
+  {
+    "question": {
+      "title": "http code 中 301 和 302 有啥区别？【热度: 721】",
+      "labels": [
+        "网易",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/643"
+  },
+  {
+    "question": {
+      "title": "前端如何设置请求超时时间 timeout(axios)【热度: 890】",
+      "labels": [
+        "网易",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/642"
+  },
+  {
+    "question": {
+      "title": "nodejs 如何充分利用多核 CPU?【热度: 725】",
+      "labels": [
+        "Nodejs",
+        "阿里巴巴"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/641"
+  },
+  {
+    "question": {
+      "title": "后端一次性返回树形结构数据，数据量非常大, 前端该如何处理？【热度: 171】",
+      "labels": [
+        "web应用场景",
+        "小米"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/640"
+  },
+  {
+    "question": {
+      "title": "你认为组件封装的一些基本准则是什么？【热度: 625】",
+      "labels": [
+        "Shopee",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/639"
+  },
+  {
+    "question": {
+      "title": "页面加载速度提升（性能优化）应该从哪些方向来思考？【热度: 1,099】",
+      "labels": [
+        "工程化",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/638"
+  },
+  {
+    "question": {
+      "title": "对比一下 pnpm、npm、yarn 特性【热度: 399】",
+      "labels": [
+        "工程化",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/636"
+  },
+  {
+    "question": {
+      "title": "前端日志埋点 SDK 设计思路【热度: 755】",
+      "labels": [
+        "web应用场景",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/635"
+  },
+  {
+    "question": {
+      "title": "token 进行身份验证了解多少？【热度: 942】",
+      "labels": [
+        "web应用场景",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/633"
+  },
+  {
+    "question": {
+      "title": "在前端应用如何进行权限设计？【热度: 329】",
+      "labels": [
+        "web应用场景",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/632"
+  },
+  {
+    "question": {
+      "title": "[低代码] 代码平台一般渲染是如何设计的？【热度: 399】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/630"
+  },
+  {
+    "question": {
+      "title": "[低代码] 代码平台一般底层协议是怎么设计的【热度: 263】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/629"
+  },
+  {
+    "question": {
+      "title": "[低代码] 代码平台一般架构设计如何【热度: 517】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/628"
+  },
+  {
+    "question": {
+      "title": "[React] 类组件的生命周期， 映射的 hooks 哪些 api ?【热度: 314】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/627"
+  },
+  {
+    "question": {
+      "title": "[Webpack] Webpack vs Vite的核心差异【热度: 820】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/625"
+  },
+  {
+    "question": {
+      "title": "对 babel 的理解？【热度: 551】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/623"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 有哪些优化项目的手段？【热度: 1,163】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/622"
+  },
+  {
+    "question": {
+      "title": "IndexedDB 存储空间大小是如何约束的？【热度: 116】",
+      "labels": [
+        "PDD",
+        "浏览器"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/621"
+  },
+  {
+    "question": {
+      "title": "浏览器的存储有哪些【热度: 814】",
+      "labels": [
+        "PDD",
+        "浏览器"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/620"
+  },
+  {
+    "question": {
+      "title": "[React] 如何实现路由守卫【热度: 681】",
+      "labels": [
+        "web框架",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/619"
+  },
+  {
+    "question": {
+      "title": "[Vue] 路由守卫【热度: 680】",
+      "labels": [
+        "web框架",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/618"
+  },
+  {
+    "question": {
+      "title": "[Vue] computed 和 watch 有啥区别?【热度: 876】",
+      "labels": [
+        "web框架",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/617"
+  },
+  {
+    "question": {
+      "title": "[Vue] ref、toRef 和 toRefs 有啥区别？【热度: 128】",
+      "labels": [
+        "web框架",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/616"
+  },
+  {
+    "question": {
+      "title": "介绍一下迭代器 Iterator, 以及有哪些用法【热度: 645】",
+      "labels": [
+        "JavaScript",
+        "小米"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/615"
+  },
+  {
+    "question": {
+      "title": "箭头函数的作用以及使用场景【热度: 760】",
+      "labels": [
+        "JavaScript",
+        "小米"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/613"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 全面了解 tree shaking【热度: 790】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/612"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 通过 babel-loader 来编译 tsx 文件， 应该如何配置呢？【热度: 221】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/611"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 如何打包运行时 chunk ， 且在项目工程中， 如何去加载这个运行时 chunk ?【热度: 421】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/610"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 如何配置多入口应用， 且区分公共依赖的？【热度: 124】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/609"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 有哪些基础概念【热度: 595】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/608"
+  },
+  {
+    "question": {
+      "title": "[Webpack] 为什么选择 webpack？【热度: 515】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/607"
+  },
+  {
+    "question": {
+      "title": "[Webpack] chunk 是什么概念，介绍一下？【热度: 1,100】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/606"
+  },
+  {
+    "question": {
+      "title": "[微前端] 路由加载流程是如何的？【热度: 971】",
+      "labels": [
+        "web框架",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/605"
+  },
+  {
+    "question": {
+      "title": "[微前端] 设计原则有哪些？【热度: 1,060】",
+      "labels": [
+        "web框架",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/604"
+  },
+  {
+    "question": {
+      "title": "为何现在市面上做表格渲染可视化技术的，大多数都是 canvas ， 而很少用 svg 的？【热度: 302】",
+      "labels": [
+        "web应用场景",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/603"
+  },
+  {
+    "question": {
+      "title": "[代码实现] 手写数组降维flat方法【热度: 244】",
+      "labels": [
+        "代码实现/算法",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/601"
+  },
+  {
+    "question": {
+      "title": "[代码实现] 手写 dom 分段渲染【热度: 280】",
+      "labels": [
+        "代码实现/算法",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/600"
+  },
+  {
+    "question": {
+      "title": "[代码实现] 不使用 setTimeout 来实现 setInterval【热度: 231】",
+      "labels": [
+        "代码实现/算法",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/599"
+  },
+  {
+    "question": {
+      "title": "PM2 部署 nodejs 有哪些优势？【热度: 199】",
+      "labels": [
+        "Nodejs",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/598"
+  },
+  {
+    "question": {
+      "title": "http1.1 的 keep-alive 和 http2 的多路复用 有什么区别？【热度: 87】",
+      "labels": [
+        "网络",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/597"
+  },
+  {
+    "question": {
+      "title": "为何 http2 非常快速的就过度到了 HTTP3 ？【热度: 945】",
+      "labels": [
+        "网络",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/596"
+  },
+  {
+    "question": {
+      "title": "[Vue] 响应式为何要从 Object.defineProperty 改为 proxy?【热度: 352】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/595"
+  },
+  {
+    "question": {
+      "title": "在你的项目中， 使用过哪些 webpack plugin, 说一下他们的作用【热度: 361】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/594"
+  },
+  {
+    "question": {
+      "title": "在你的项目中， 使用过哪些 webpack loader, 说一下他们的作用【热度: 361】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/593"
+  },
+  {
+    "question": {
+      "title": "在 webpack 中，通常用于 css 提取的工具是什么？【热度: 269】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/592"
+  },
+  {
+    "question": {
+      "title": "[React] useLayoutEffect 和 useEffect 有什么区别?【热度: 313】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/591"
+  },
+  {
+    "question": {
+      "title": "[React] 如何避免不必要的渲染?【热度: 632】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/590"
+  },
+  {
+    "question": {
+      "title": "css  module 是什么？【热度: 346】",
+      "labels": [
+        "CSS",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/589"
+  },
+  {
+    "question": {
+      "title": "全局样式命名冲突和样式覆盖问题怎么解决？【热度: 772】",
+      "labels": [
+        "CSS",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/588"
+  },
+  {
+    "question": {
+      "title": "[React] 如何实现转场动画？",
+      "labels": [
+        "web框架",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/587"
+  },
+  {
+    "question": {
+      "title": "[React] react router 主要包有哪些，主要 api 有哪些？",
+      "labels": [
+        "web框架",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/586"
+  },
+  {
+    "question": {
+      "title": "[React] 是如何进行渲染的？【热度: 623】",
+      "labels": [
+        "web框架",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/585"
+  },
+  {
+    "question": {
+      "title": "[React] 从 React 层面上， 能做的性能优化有哪些？【热度: 1,005】",
+      "labels": [
+        "web框架",
+        "美团"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/584"
+  },
+  {
+    "question": {
+      "title": "[React] 高阶组件理解多少？【热度: 655】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/583"
+  },
+  {
+    "question": {
+      "title": "[React] Class Components 和 Function Components 有区别？【热度: 229】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/582"
+  },
+  {
+    "question": {
+      "title": "[React] 构建组件的方式有哪些【热度: 482】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/581"
+  },
+  {
+    "question": {
+      "title": "[React] 如何实现vue 中 keep-alive 的功能？【热度: 255】",
+      "labels": [
+        "web框架",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/580"
+  },
+  {
+    "question": {
+      "title": "[Vue] 中为何不要把 v-if 和 v-for 同时用在同一个元素上， 原理是什么？【热度: 546】",
+      "labels": [
+        "web框架",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/579"
+  },
+  {
+    "question": {
+      "title": "将静态资源缓存在本地的方式有哪些？【热度: 584】",
+      "labels": [
+        "工程化",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/578"
+  },
+  {
+    "question": {
+      "title": "SPA首屏加载速度慢的怎么解决【热度: 868】",
+      "labels": [
+        "工程化",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/577"
+  },
+  {
+    "question": {
+      "title": "[Vue] 为什么 data 属性是一个函数而不是一个对象？【热度: 448】",
+      "labels": [
+        "Shopee",
+        "web框架"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/576"
+  },
+  {
+    "question": {
+      "title": "XHR 和 Fetch 是否支持取消请求【热度: 122】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/575"
+  },
+  {
+    "question": {
+      "title": "axios 是如何区分是 nodejs 环境还是 浏览器环境 的？【热度: 113】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/574"
+  },
+  {
+    "question": {
+      "title": "axios 有哪些特性？【热度: 464】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/573"
+  },
+  {
+    "question": {
+      "title": "如何拦截 web 应用的请求【热度: 487】",
+      "labels": [
+        "快手",
+        "网络"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/572"
+  },
+  {
+    "question": {
+      "title": "[Vue] 动态给 data 添加一个新的属性时会发生什么【热度: 164】",
+      "labels": [
+        "Shopee",
+        "web框架"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/571"
+  },
+  {
+    "question": {
+      "title": "Object 对象有哪些场景 api ？【热度: 509】",
+      "labels": [
+        "JavaScript",
+        "网易"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/570"
+  },
+  {
+    "question": {
+      "title": "前端有哪些跨页面通信方式？【热度: 791】",
+      "labels": [
+        "web应用场景",
+        "京东"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/569"
+  },
+  {
+    "question": {
+      "title": "实现日期格式化 format 函数【热度: 489】",
+      "labels": [
+        "代码实现/算法",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/568"
+  },
+  {
+    "question": {
+      "title": "实现一个函数， 计算两个日期之间的天数差",
+      "labels": [
+        "代码实现/算法",
+        "网易"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/567"
+  },
+  {
+    "question": {
+      "title": "https 如何保证安全的？【热度: 782】",
+      "labels": [
+        "网易",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/566"
+  },
+  {
+    "question": {
+      "title": "CSS 如何实现文本溢出？【热度: 382】",
+      "labels": [
+        "CSS",
+        "Shopee"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/565"
+  },
+  {
+    "question": {
+      "title": "JavaScript 中， 隐藏类是什么概念？【热度: 146】",
+      "labels": [
+        "JavaScript",
+        "网易"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/564"
+  },
+  {
+    "question": {
+      "title": "JavaScript 如何做内存管理？【热度: 603】",
+      "labels": [
+        "JavaScript",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/563"
+  },
+  {
+    "question": {
+      "title": "JavaScript 和 BOM、DOM 、ECMAScript、Nodejs 之间是什么关系",
+      "labels": [
+        "JavaScript",
+        "阿里巴巴"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/562"
+  },
+  {
+    "question": {
+      "title": "weakSet 是什么数据结构， 有什么应用场景【热度: 161】",
+      "labels": [
+        "JavaScript",
+        "阿里巴巴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/561"
+  },
+  {
+    "question": {
+      "title": "splice 和 slice 有什么区别？【热度: 282】",
+      "labels": [
+        "JavaScript",
+        "滴滴"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/560"
+  },
+  {
+    "question": {
+      "title": "什么是匿名函数？【热度: 275】",
+      "labels": [
+        "JavaScript",
+        "快手"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/559"
+  },
+  {
+    "question": {
+      "title": "git 中回滚代码有哪些操作？【热度: 237】",
+      "labels": [
+        "工程化",
+        "快手"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/558"
+  },
+  {
+    "question": {
+      "title": "git reset 作用是啥，有哪些操作？【热度: 275】",
+      "labels": [
+        "工程化",
+        "快手"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/557"
+  },
+  {
+    "question": {
+      "title": "为什么现代前端应用需要打包工具进行打包编译？【热度: 588】",
+      "labels": [
+        "工程化",
+        "快手"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/556"
+  },
+  {
+    "question": {
+      "title": "vue-cli 都做了哪些事儿，有哪些功能？【热度: 386】",
+      "labels": [
+        "Shopee",
+        "web应用场景"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/555"
+  },
+  {
+    "question": {
+      "title": "如何理解数据驱动视图， 有哪些核心要素？【热度: 943】",
+      "labels": [
+        "web应用场景",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/554"
+  },
+  {
+    "question": {
+      "title": "WeakMap 是什么样的数据结构【热度: 431】",
+      "labels": [
+        "JavaScript",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/553"
+  },
+  {
+    "question": {
+      "title": "[代码实现] JS 中数组深对比实现【热度: 985】",
+      "labels": [
+        "代码实现/算法",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/551"
+  },
+  {
+    "question": {
+      "title": "[代码实现] JS 中如何实现大对象深度对比【热度: 906】",
+      "labels": [
+        "代码实现/算法",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/550"
+  },
+  {
+    "question": {
+      "title": "用户访问页面白屏了， 原因是啥， 如何排查？【热度: 609】",
+      "labels": [
+        "web应用场景",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/549"
+  },
+  {
+    "question": {
+      "title": "如果用户反馈说感觉网页很卡顿，这个时候该如何排查问题?【热度: 768】",
+      "labels": [
+        "web应用场景",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/548"
+  },
+  {
+    "question": {
+      "title": "前端架构和前端工程化有什么区别？",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/547"
+  },
+  {
+    "question": {
+      "title": "如何理解前端工程化？",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/546"
+  },
+  {
+    "question": {
+      "title": "如何理解前端架构？",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/545"
+  },
+  {
+    "question": {
+      "title": "web 网页如何禁止别人移除水印【热度: 540】",
+      "labels": [
+        "web应用场景",
+        "小米"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/544"
+  },
+  {
+    "question": {
+      "title": "前端基建设计到哪些方面【热度: 782】",
+      "labels": [
+        "工程化"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/543"
+  },
+  {
+    "question": {
+      "title": "副作用是什么概念【热度: 230】",
+      "labels": [
+        "JavaScript",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/541"
+  },
+  {
+    "question": {
+      "title": "类型的转换有哪些【热度: 631】",
+      "labels": [
+        "JavaScript",
+        "滴滴"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/540"
+  },
+  {
+    "question": {
+      "title": "箭头函数解决了什么问题【热度: 568】",
+      "labels": [
+        "JavaScript",
+        "滴滴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/539"
+  },
+  {
+    "question": {
+      "title": "引用类型有哪些，有什么特点【热度: 902】",
+      "labels": [
+        "JavaScript",
+        "快手"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/538"
+  },
+  {
+    "question": {
+      "title": "typeof 与 instanceof 的区别【热度: 906】",
+      "labels": [
+        "JavaScript",
+        "Shopee"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/537"
+  },
+  {
+    "question": {
+      "title": "http 请求中 GET 和 POST 有什么区别【热度: 505】",
+      "labels": [
+        "Shopee",
+        "网络"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/536"
+  },
+  {
+    "question": {
+      "title": "如何实现大文件断点续传【热度: 897】",
+      "labels": [
+        "网易",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/535"
+  },
+  {
+    "question": {
+      "title": "长连接了解多少【热度: 567】",
+      "labels": [
+        "网易",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/534"
+  },
+  {
+    "question": {
+      "title": "单点登录是什么， 具体流程是什么【热度: 1,168】",
+      "labels": [
+        "web应用场景",
+        "小米"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/533"
+  },
+  {
+    "question": {
+      "title": "什么是 JWT【热度: 428】",
+      "labels": [
+        "小米",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/532"
+  },
+  {
+    "question": {
+      "title": "Http 状态码 301 和 302 的应用场景分别是什么",
+      "labels": [
+        "百度",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/531"
+  },
+  {
+    "question": {
+      "title": "http 常见状态码有哪些【热度: 1,410】",
+      "labels": [
+        "百度",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/530"
+  },
+  {
+    "question": {
+      "title": "http2 多路复用是什么, 原理是什么【热度: 353】",
+      "labels": [
+        "网络",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/529"
+  },
+  {
+    "question": {
+      "title": "HTTP/1.0、HTTP/1.1、HTTP/2和HTTP/3之间的主要区别【热度: 1,447】",
+      "labels": [
+        "网络",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/528"
+  },
+  {
+    "question": {
+      "title": "常见的请求头和响应头",
+      "labels": [
+        "京东",
+        "网络"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/527"
+  },
+  {
+    "question": {
+      "title": "html 标签属性 src 和 href 有什么区别【热度: 1,134】",
+      "labels": [
+        "PDD",
+        "浏览器"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/526"
+  },
+  {
+    "question": {
+      "title": "[Vue] 异常处理机制有哪些【热度: 435】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/525"
+  },
+  {
+    "question": {
+      "title": "[Vue] vue3 的 diff 算法是什么，简单介绍一下【热度: 693】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/524"
+  },
+  {
+    "question": {
+      "title": "webpack tree-shaking 在什么情况下会失效？【热度: 171】",
+      "labels": [
+        "工程化",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/523"
+  },
+  {
+    "question": {
+      "title": "前端模块化的演进过程【热度: 798】",
+      "labels": [
+        "京东",
+        "工程化"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/522"
+  },
+  {
+    "question": {
+      "title": "[代码实现] 实现一个可以用for...of遍历的对象【热度: 653】",
+      "labels": [
+        "代码实现/算法",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/521"
+  },
+  {
+    "question": {
+      "title": "for...of、for...in、for 循环， 三者有什么区别【热度: 1,652】",
+      "labels": [
+        "JavaScript",
+        "腾讯"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/520"
+  },
+  {
+    "question": {
+      "title": "[代码执行] 关于 this 的指向问题：下面代码执行结果是什么, 原因？",
+      "labels": [
+        "JavaScript",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/519"
+  },
+  {
+    "question": {
+      "title": "HTML 属性 crossorigin 的作用是什么【热度: 267】",
+      "labels": [
+        "小米",
+        "浏览器"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/518"
+  },
+  {
+    "question": {
+      "title": "html rel 属性 的参数 preload和prefetch 的作用是什么【热度: 1,057】",
+      "labels": [
+        "小米",
+        "浏览器"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/517"
+  },
+  {
+    "question": {
+      "title": "[性能] 常见性能指标获取方式？【热度: 954】",
+      "labels": [
+        "工程化",
+        "美团"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/516"
+  },
+  {
+    "question": {
+      "title": "[性能] 衡量页面性能的指标有哪些？【热度: 1,045】",
+      "labels": [
+        "工程化",
+        "美团"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/515"
+  },
+  {
+    "question": {
+      "title": "[Vue] 组件之间的通信方式有哪些？【热度: 1,109】",
+      "labels": [
+        "PDD",
+        "web框架"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/514"
+  },
+  {
+    "question": {
+      "title": "link 标签有 那些属性，作用都是啥？【热度: 839】",
+      "labels": [
+        "浏览器"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/513"
+  },
+  {
+    "question": {
+      "title": "in 运算符作用是什么【热度: 844】",
+      "labels": [
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/512"
+  },
+  {
+    "question": {
+      "title": "is 作用是什么【热度: 458】",
+      "labels": [
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/511"
+  },
+  {
+    "question": {
+      "title": "infer 关键字是什么【热度: 100】",
+      "labels": [
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/510"
+  },
+  {
+    "question": {
+      "title": "extends 条件类型定义【热度: 297】",
+      "labels": [
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/509"
+  },
+  {
+    "question": {
+      "title": "联合类型是什么？【热度: 1,180】",
+      "labels": [
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/508"
+  },
+  {
+    "question": {
+      "title": "unknown 是什么类型，详细讲一下【热度: 801】",
+      "labels": [
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/507"
+  },
+  {
+    "question": {
+      "title": "never 是什么类型，详细讲一下【热度: 667】",
+      "labels": [
+        "TypeScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/506"
+  },
+  {
+    "question": {
+      "title": "[React] 如何给 children 添加额外的属性【热度: 527】",
+      "labels": [
+        "PDD",
+        "web框架"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/505"
+  },
+  {
+    "question": {
+      "title": "[React] hooks 和 memorizedState 是什么关系?【热度: 836】",
+      "labels": [
+        "PDD",
+        "web框架"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/504"
+  },
+  {
+    "question": {
+      "title": "如何判断一个单向链表是否是循环链表?【热度: 975】",
+      "labels": [
+        "JavaScript",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/503"
+  },
+  {
+    "question": {
+      "title": "浏览器本身是不支持模块化的, webpack 是如何通过文件打包，让浏览器可以读取到前端各个模块的代码的？【热度: 1,153】",
+      "labels": [
+        "工程化",
+        "美团"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/502"
+  },
+  {
+    "question": {
+      "title": "TCP/IP五层协议是什么？【热度: 548】",
+      "labels": [
+        "网络",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/501"
+  },
+  {
+    "question": {
+      "title": "[代码实现] 根据 path 来解析数组，生成多维度的数组对象",
+      "labels": [
+        "代码实现/算法"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/500"
+  },
+  {
+    "question": {
+      "title": "如何封装一个请求，让其多次调用的时候，实际只发起一个请求的时候，返回同一份结果【热度: 636】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/499"
+  },
+  {
+    "question": {
+      "title": "一般项目里面对请求 request 都会做哪些统一封装？【热度: 916】",
+      "labels": [
+        "网络",
+        "阿里巴巴"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/498"
+  },
+  {
+    "question": {
+      "title": "onpopstate可以监听到一个pushstate的事件吗【热度: 546】",
+      "labels": [
+        "浏览器",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/497"
+  },
+  {
+    "question": {
+      "title": "[React] 如何进行路由变化监听【热度: 698】",
+      "labels": [
+        "web应用场景",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/496"
+  },
+  {
+    "question": {
+      "title": "原生 js 如何进行监听路由的变化【热度: 906】",
+      "labels": [
+        "浏览器",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/495"
+  },
+  {
+    "question": {
+      "title": " HTML5 的 History API 进行导航时，页面真的进行了一个切换吗？【热度: 424】",
+      "labels": [
+        "浏览器",
+        "滴滴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/494"
+  },
+  {
+    "question": {
+      "title": "为什么 SPA 应用都会提供一个 hash 路由，好处是什么？【热度: 681】",
+      "labels": [
+        "web应用场景",
+        "快手"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/493"
+  },
+  {
+    "question": {
+      "title": "[代码实现] 实现管道函数【热度: 540】",
+      "labels": [
+        "Shopee",
+        "代码实现/算法"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/492"
+  },
+  {
+    "question": {
+      "title": "如何优化 DOM 树解析过程【热度: 414】",
+      "labels": [
+        "浏览器"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/491"
+  },
+  {
+    "question": {
+      "title": "DOM 树解析过程【热度: 416】",
+      "labels": [
+        "浏览器"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/490"
+  },
+  {
+    "question": {
+      "title": "[Vue] 你做过哪些性能优化【热度: 969】",
+      "labels": [
+        "Shopee",
+        "web框架"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/489"
+  },
+  {
+    "question": {
+      "title": "[Vue] Vue2.0 和 Vue3.0 有什么区别",
+      "labels": [
+        "web框架"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/488"
+  },
+  {
+    "question": {
+      "title": "typeof null 的输出结果是什么，为什么？【热度: 93】",
+      "labels": [
+        "JavaScript",
+        "Shopee"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/487"
+  },
+  {
+    "question": {
+      "title": "如何冻结一个 JS 对象【热度: 949】",
+      "labels": [
+        "JavaScript",
+        "Shopee"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/486"
+  },
+  {
+    "question": {
+      "title": "script 标签上有那些属性，分别作用是啥？【热度: 744】",
+      "labels": [
+        "Shopee",
+        "web应用场景"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/485"
+  },
+  {
+    "question": {
+      "title": "proxy 有那些实际使用场景【热度: 849】",
+      "labels": [
+        "JavaScript",
+        "滴滴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/484"
+  },
+  {
+    "question": {
+      "title": "如何实现页面顶部， 自定义滚动进度条样式【热度: 1,220】",
+      "labels": [
+        "CSS",
+        "快手"
+      ],
+      "level": "初"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/483"
+  },
+  {
+    "question": {
+      "title": "如何搭建一套灰度系统？【热度: 1,226】",
+      "labels": [
+        "工程化",
+        "腾讯"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/482"
+  },
+  {
+    "question": {
+      "title": "async/await 函数到底要不要加 try catch ?【热度: 645】",
+      "labels": [
+        "JavaScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/481"
+  },
+  {
+    "question": {
+      "title": "讲一下Webpack设计理念（过于硬核， 直接上文档了）",
+      "labels": [
+        "web框架"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/480"
+  },
+  {
+    "question": {
+      "title": "模拟new操作【热度: 1,186】",
+      "labels": [
+        "JavaScript",
+        "滴滴"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/479"
+  },
+  {
+    "question": {
+      "title": "下面代码的执行结果是多少（意义不大）",
+      "labels": [
+        "JavaScript"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/478"
+  },
+  {
+    "question": {
+      "title": "[React] ref 有哪些使用场景，请举例【热度: 668】",
+      "labels": [
+        "web框架",
+        "美团"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/477"
+  },
+  {
+    "question": {
+      "title": "[React] 函数组件和 class 组件有什么区别？【热度: 1,029】",
+      "labels": [
+        "PDD",
+        "web框架"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/476"
+  },
+  {
+    "question": {
+      "title": "[React] 合成事件和原生事件触发的先后顺序如何？【热度: 1,445】",
+      "labels": [
+        "web框架"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/475"
+  },
+  {
+    "question": {
+      "title": "package.json 里面 sideEffects 属性的作用是啥【热度: 629】",
+      "labels": [
+        "web应用场景",
+        "京东"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/473"
+  },
+  {
+    "question": {
+      "title": "用 nodejs 实现一个命令行工具， 统计输入目录下面指定代码的行数【热度: 732】",
+      "labels": [
+        "web应用场景",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/472"
+  },
+  {
+    "question": {
+      "title": "webpack 如何配置按需加载的模块【热度: 693】",
+      "labels": [
+        "Shopee",
+        "web应用场景"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/471"
+  },
+  {
+    "question": {
+      "title": "如果不使用脚手架， 如果用 webpack 构建一个自己的 react 应用【热度: 729】",
+      "labels": [
+        "web应用场景",
+        "快手"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/470"
+  },
+  {
+    "question": {
+      "title": "如何通过设置失效时间清除本地存储的数据？【热度: 1,085】",
+      "labels": [
+        "Shopee",
+        "web应用场景"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/469"
+  },
+  {
+    "question": {
+      "title": "前端如何用 canvas 来做电影院选票功能",
+      "labels": [
+        "web应用场景",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/468"
+  },
+  {
+    "question": {
+      "title": "如何理解研发流程和研发效率，如何保障研发效率",
+      "labels": [
+        "小米",
+        "工程化"
+      ],
+      "level": "资深"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/467"
+  },
+  {
+    "question": {
+      "title": "[react] constructor 和 getInitialState 的区别?【热度: 785】",
+      "labels": [
+        "web框架",
+        "百度"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/466"
+  },
+  {
+    "question": {
+      "title": "[react] 如何合理使用 useContext【热度: 1,326】",
+      "labels": [
+        "web框架",
+        "腾讯"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/465"
+  },
+  {
+    "question": {
+      "title": "[react] 数组用useState做状态管理的时候，使用push，pop，splice等直接更改数组对象，会引起页面渲染吗？【热度: 488】",
+      "labels": [
+        "web框架",
+        "快手"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/464"
+  },
+  {
+    "question": {
+      "title": "[vue] vue2.x 响应式原理是什么【热度: 669】",
+      "labels": [
+        "Shopee",
+        "web框架"
+      ],
+      "level": "高"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/463"
+  },
+  {
+    "question": {
+      "title": "斐波拉契数列是什么，用 JS 实现，用尾调优化斐波拉契数列【热度: 923】",
+      "labels": [
+        "JavaScript",
+        "网易"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/462"
+  },
+  {
+    "question": {
+      "title": "[代码实现] 实现数组的flat方法，支持深度层级参数",
+      "labels": [
+        "京东",
+        "代码实现/算法"
+      ],
+      "level": "中"
+    },
+    "link": "https://github.com/pro-collection/interview-question/issues/461"
+  }
+]
