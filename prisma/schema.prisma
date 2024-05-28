@@ -12,3 +12,28 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+model Question {
+  id      Int                 @id @default(autoincrement())
+  title   String              @unique @db.VarChar(255)
+  labels  QuestionsOnLabels[]
+  level   String              @db.VarChar(255)
+  link    String              @db.VarChar(255)
+  answer  String              @db.VarChar(10000)
+  issueId Int                 @unique
+}
+
+model Label {
+  id        Int                 @id @default(autoincrement())
+  label     String              @unique @db.VarChar(255)
+  questions QuestionsOnLabels[]
+}
+
+model QuestionsOnLabels {
+  Question   Question @relation(fields: [QuestionId], references: [id])
+  QuestionId Int
+  Label      Label    @relation(fields: [LabelId], references: [id])
+  LabelId    Int
+
+  @@id([QuestionId, LabelId])
+}

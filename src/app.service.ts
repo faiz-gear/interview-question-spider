@@ -1,12 +1,62 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import puppeteer from 'puppeteer';
-import fs from 'fs';
-import html2md from 'html-to-md';
+import TurndownService from 'turndown';
+import { PrismaService } from './prisma.service';
 
 @Injectable()
 export class AppService {
   getHello(): string {
     return 'Hello World!';
+  }
+
+  @Inject(PrismaService)
+  private readonly prismaService: PrismaService;
+
+  async upsertQuestionWithLabels(questionData) {
+    const { title, level, link, answer, issueId, labels } = questionData;
+
+    // Upsert the Question
+    const question = await this.prismaService.question.upsert({
+      where: { issueId: issueId },
+      update: {
+        title: title,
+        level: level,
+        link: link,
+        answer: answer,
+      },
+      create: {
+        title: title,
+        level: level,
+        link: link,
+        answer: answer,
+        issueId: issueId,
+      },
+    });
+
+    // Handle the labels
+    for (const labelName of labels) {
+      // Upsert the Label
+      const label = await this.prismaService.label.upsert({
+        where: { label: labelName },
+        update: {},
+        create: { label: labelName },
+      });
+
+      // Connect the Question and the Label
+      await this.prismaService.questionsOnLabels.upsert({
+        where: {
+          QuestionId_LabelId: {
+            QuestionId: question.id,
+            LabelId: label.id,
+          },
+        },
+        update: {},
+        create: {
+          QuestionId: question.id,
+          LabelId: label.id,
+        },
+      });
+    }
   }
 
   async startSpider() {
@@ -34,14 +84,9 @@ export class AppService {
         return parseInt(el.textContent);
       },
     );
-    console.log(
-      '🚀 ~ file: app.service.ts ~ line 37 ~ AppService ~ startSpider ~ totalPage',
-      totalPage,
-    );
-
     // 存储所有面试问题
-    const allInterviewQuestion = [];
-    for (let i = 1; i <= 1; i++) {
+    const allInterviewQuestions = [];
+    for (let i = 1; i <= totalPage; i++) {
       await page.goto(
         `https://github.com/pro-collection/interview-question/issues?page=${i}&q=is%3Aissue+is%3Aopen`,
       );
@@ -51,28 +96,25 @@ export class AppService {
       const questions = await page.$eval('.js-navigation-container', (el) => {
         return [...el.querySelectorAll('.Box-row')].map((item) => {
           return {
-            question: {
-              title: item.querySelector('.Link--primary').textContent,
-              labels: [...item.querySelectorAll('.lh-default a')].map((el) =>
-                el.textContent.trim(),
-              ),
-              level: item
-                .querySelector('.issue-milestone .css-truncate-target')
-                .textContent.trim(),
-            },
+            issueId: parseInt(item.id.split('_')[1]),
+            title: item.querySelector('.Link--primary').textContent,
+            labels: [...item.querySelectorAll('.lh-default a')].map((el) =>
+              el.textContent.trim(),
+            ),
+            level: item
+              .querySelector('.issue-milestone .css-truncate-target')
+              .textContent.trim(),
             link: (item.querySelector('a.Link--primary') as HTMLAnchorElement)
               .href,
           };
         });
       });
-      allInterviewQuestion.push(...questions);
+      allInterviewQuestions.push(...questions);
     }
 
-    let mdContent = '';
-
     // 获取题目回答
-    for (let i = 0; i < allInterviewQuestion.length; i++) {
-      await page.goto(allInterviewQuestion[i].link);
+    for (let i = 0; i < allInterviewQuestions.length; i++) {
+      await page.goto(allInterviewQuestions[i].link);
 
       try {
         await page.waitForSelector('.comment-body');
@@ -82,46 +124,10 @@ export class AppService {
           (el) => el.outerHTML,
         );
 
-        const md = html2md(
-          commentHtmlString,
-          {
-            ignoreTags: [
-              '',
-              'style',
-              'head',
-              '!doctype',
-              'form',
-              'svg',
-              'noscript',
-              'script',
-              'meta',
-            ],
-            skipTags: [
-              'div',
-              'html',
-              'body',
-              'nav',
-              'section',
-              'footer',
-              'main',
-              'aside',
-              'article',
-              'header',
-            ],
-            emptyTags: [],
-            aliasTags: {
-              figure: 'p',
-              dl: 'p',
-              dd: 'p',
-              dt: 'p',
-              figcaption: 'p',
-            },
-            renderCustomTags: true,
-          },
-          true,
-        );
+        const turndownService = new TurndownService();
+        const markdown = turndownService.turndown(commentHtmlString);
 
-        mdContent += md;
+        allInterviewQuestions[i].answer = markdown;
 
         // console.log(allJobs[i]);
       } catch (e) {
@@ -133,13 +139,9 @@ export class AppService {
     }
 
     // 保存数据
-    fs.writeFileSync('./interview-question.md', mdContent);
-    console.log(
-      '🚀 ~ file: app.service.ts ~ line 142 ~ AppService ~ startSpider ~ mdContent',
-      mdContent,
-    );
-
-    // // 清空Job表
-    // this.entityManager.clear(Job);
+    for (let i = 0; i < allInterviewQuestions.length; i++) {
+      const question = allInterviewQuestions[i];
+      await this.upsertQuestionWithLabels(question);
+    }
   }
 }
