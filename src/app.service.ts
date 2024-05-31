@@ -144,4 +144,12 @@ export class AppService {
       await this.upsertQuestionWithLabels(question);
     }
   }
+
+  async list() {
+    return await this.prismaService.question.findMany({
+      include: {
+        labels: true,
+      },
+    });
+  }
 }

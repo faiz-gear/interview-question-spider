@@ -9,4 +9,9 @@ export class AppController {
   startSpider() {
     return this.appService.startSpider();
   }
+
+  @Get('list')
+  list() {
+    return this.appService.list();
+  }
 }
