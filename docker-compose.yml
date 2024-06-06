@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  interview-question-spider:
+    container_name: interview-question-spider
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - mysql-service
+    env_file:
+      - .env
+    networks:
+      - interview-question-spider
+
+  mysql-service:
+    container_name: mysql-service
+    image: mysql
+    volumes:
+      - interview-question-spider:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: interview-question-spider
+      MYSQL_ROOT_PASSWORD: admin
+    ports:
+      - 6000:3306
+    networks:
+      - interview-question-spider
+
+volumes:
+  interview-question-spider:
+
+networks:
+  interview-question-spider:
+    driver: bridge
