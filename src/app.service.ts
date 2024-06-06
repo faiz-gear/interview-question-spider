@@ -61,7 +61,7 @@ export class AppService {
 
   async startSpider() {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       defaultViewport: {
         width: 0,
         height: 0,
