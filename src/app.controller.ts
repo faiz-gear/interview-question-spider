@@ -10,9 +10,11 @@ export class AppController {
 
   @Get()
   @Cron(CronExpression.EVERY_DAY_AT_1AM)
-  startSpider() {
+  async startSpider() {
     this.logger.verbose('Starting spider');
-    return this.appService.startSpider();
+    const res = await this.appService.startSpider();
+    this.logger.verbose('Spider finished');
+    return res;
   }
 
   @Get('list')
