@@ -1,9 +1,14 @@
-import { Controller, Get, Logger } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Logger,
+  OnApplicationBootstrap,
+} from '@nestjs/common';
 import { AppService } from './app.service';
 import { Cron, CronExpression } from '@nestjs/schedule';
 
 @Controller()
-export class AppController {
+export class AppController implements OnApplicationBootstrap {
   constructor(private readonly appService: AppService) {}
 
   private readonly logger = new Logger(AppController.name);
@@ -20,5 +25,10 @@ export class AppController {
   @Get('list')
   list() {
     return this.appService.list();
+  }
+
+  onApplicationBootstrap() {
+    this.logger.verbose('App started');
+    this.startSpider();
   }
 }
