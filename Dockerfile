@@ -1,4 +1,4 @@
-FROM  node:20-slim as build-stage
+FROM registry.cn-hangzhou.aliyuncs.com/faiz-gear/node:20-slim as build-stage
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
