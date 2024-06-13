@@ -13,6 +13,7 @@ services:
       - .env
     networks:
       - interview-question-spider
+    platform: linux/amd64
 
   mysql-service:
     container_name: mysql-service
@@ -26,6 +27,7 @@ services:
       - 6000:3306
     networks:
       - interview-question-spider
+    platform: linux/amd64
 
 volumes:
   interview-question-spider:
