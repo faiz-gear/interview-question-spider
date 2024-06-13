@@ -72,6 +72,8 @@ export class AppService {
 
     const page = await browser.newPage();
 
+    await page.setDefaultNavigationTimeout(1000 * 60);
+
     await page.goto(
       'https://github.com/pro-collection/interview-question/issues?q=is%3Aopen+is%3Aissue+milestone%3A%E9%AB%98',
     );
