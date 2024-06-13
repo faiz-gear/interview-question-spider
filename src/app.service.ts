@@ -67,7 +67,7 @@ export class AppService {
         height: 0,
       },
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
-      executablePath: '/usr/bin/chromium',
+      executablePath: '/usr/bin/google-chrome',
     });
 
     const page = await browser.newPage();
